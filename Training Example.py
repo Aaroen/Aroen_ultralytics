@@ -14,7 +14,8 @@ if __name__ == '__main__':
         epochs=30,  # ← 增加训练轮次
         imgsz=640,
         device=0,
-        workers=4,    # ← 适当启用多线程
-        batch=32,     # ← 增大批次大小
-        mixup=0.1     # ← 启用数据增强
+        workers=4,
+        batch=32,
+        mixup=0.1,
+        exist_ok=True  # ← 新增参数避免多次训练创建新文件夹
     )
