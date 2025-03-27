@@ -19,3 +19,4 @@ if __name__ == '__main__':
         mixup=0.1,
         exist_ok=True  # ← 新增参数避免多次训练创建新文件夹
     )
+    
