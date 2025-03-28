@@ -33,5 +33,10 @@ names:
   14: swimming pool
   15: container crane
 
+path: E:/data/DOTAv1.5  # 修改根目录路径
+train: images/train
+val: images/val
+test: images/test
+
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/DOTAv1.5.zip

@@ -32,4 +32,6 @@ names:
   14: swimming pool
 
 # Download script/URL (optional)
+# 修改后的配置（删除重复的path字段）
+path: E:/data/dota8  # 修改根目录路径
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/dota8.zip
