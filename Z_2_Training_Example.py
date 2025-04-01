@@ -7,7 +7,7 @@ if __name__ == '__main__':
     model = YOLO("ultralytics/cfg/models/12/yolo12n.yaml").load("yolo12n.pt")  
     # 训练模型
     results = model.train(
-        data="ultralytics/cfg/datasets/VOC.yaml",
+        data="ultralytics/cfg/datasets/coco128.yaml",
         epochs=3,
         imgsz=640,          
         device=0,
